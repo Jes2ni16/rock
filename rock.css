@@ -1,0 +1,17 @@
+#image img{
+    width: 100px;
+    height: 100px;
+}
+.welcome{
+    height: 100vh;
+}
+
+
+
+.gameArea{
+    height: 100vh;
+
+}
+.bg-success{
+    width: 20%;
+}
