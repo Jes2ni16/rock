@@ -5,10 +5,15 @@
 .welcome{
     height: 100vh;
 }
-.gameArea{
+#gameArea{
     height: 100vh;
-
+background-color: antiquewhite;
 }
 .bg-success{
     width: 20%;
+}
+.outputArea{
+    width:30%;
+    height: 50%;    
+    font-size: 80px;
 }

@@ -27,7 +27,7 @@
       </div>
     </div>
     <!-- main game -->
-    <div class="row col-12 container mx-auto gameArea bg-primary">
+    <div class="row col-12 container mx-auto" id="gameArea">
       <div class="mb-0 d-flex justify-content-between">
         <div id="mySide" class="col-4 h2"></div>
         <div class="col-4 h2">Draw</div>
@@ -41,8 +41,8 @@
       </div>
 
       <div class="bg-white outputArea text-center">
-        <div id="botMove" class="fs-5"></div>
-        <div id="myMove" class="fs-5"></div>
+        <div class="">Bot: <span id="botMove"></span></div>
+        <div class="">You: <span id="myMove"></span></div>
       </div>
 
       <div id="buttons" class="text-center">
@@ -55,15 +55,6 @@
         <br />
         <button onclick="play()" class="btn bg-success btn-lg">Play</button>
       </div>
-      <!-- <div id="image">
-        <a onclick="myMove('rock')" href=""> <img src="rock1.jpg" alt="" /></a>
-        <a href="" onclick="myMove('paper')"> <img src="rock2.jpg" alt="" /></a>
-        <a href="" onclick="myMove('scissor')">
-          <img src="rock3.jpg" alt=""
-        /></a>
-
-        <button onclick="play()">Play</button>
-      </div> -->
     </div>
     <script src="rock.js"></script>
     <script

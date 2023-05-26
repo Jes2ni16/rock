@@ -9,16 +9,18 @@ var userName;
 paper:2,
 scissor:3
   }
-
+let game=document.getElementById('gameArea');
+gameArea.style.display="none";
 function starts(){
    userName=document.getElementById('playerName').value;
    hideStart();
+ 
 }
 
 function hideStart(){
     let hides=document.getElementById('startScreen');
     hides.style.display="none";
- 
+    gameArea.style.display="block";
 document.getElementById('mySide').innerHTML=""+userName;
     
 }
@@ -68,4 +70,4 @@ document.getElementById("drawScore").innerHTML = `${drawScore}`;
 document.getElementById("botScore").innerHTML = `${botScore}`;
     }
    
-    
+  
