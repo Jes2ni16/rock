@@ -7,8 +7,9 @@
 }
 #gameArea{
     height: 100vh;
+    max-width: 100vw;
     background-color: #ff006e;
-
+    overflow: hidden;
 }
 .bg-success{
     width: 20%;
